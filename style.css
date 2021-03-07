@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+:root {
+  --primary: #a3f707;
+  --black: #111111;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.heading {
+  background-color: var(--primary);
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: 700px;
+}
+
+textarea {
+  width: 80%;
+  height: 10vh;
+  margin: 2rem;
+  padding: 2rem;
+  display: block;
+  border: 2px solid black;
+}
+
+#output {
+  display: block;
+  width: 80%;
+  height: 10vh;
+  margin: 1rem 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  margin: 0rem 2rem;
+  padding: 1rem 3rem;
+  font-size: large;
+}
+
+.translation {
+  font-size: 1.5rem;
+  margin: 1rem 1.5rem;
+}
+
+footer {
+  background-color: var(--primary);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+}
+
+footer p {
+  max-width: 600px;
+  margin: auto;
+}
